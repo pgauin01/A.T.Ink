@@ -1,0 +1,502 @@
+.App {
+	text-align: center;
+	background: lightgray;
+}
+
+
+.header {
+	height: 80px;
+	background: white;
+	display: flex;
+	padding: 0 30px;
+	align-items: center;
+}
+
+.logo {
+	width: 20%;
+}
+
+.checkout {
+	width: 20%;
+	position: absolute;
+	right: 60px;
+
+
+}
+
+.user {
+	position: absolute;
+	right: 60px;
+	display: flex;
+	align-items: center;
+
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.listheading {
+	margin-left: 15px;
+}
+
+.listheading#about {
+	color: #fff3f3
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.helpheading {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.headername {
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+::placeholder {
+	color: black;
+	opacity: 1;
+}
+
+.search-container {
+	width: 490px;
+	height: 50px;
+	display: block;
+}
+
+input#search-bar {
+	margin: 0 auto;
+	width: 100%;
+	height: 45px;
+	padding: 0 45px;
+	font-size: 1rem;
+	border: 1px solid #D0CFCE;
+	outline: none;
+	background: lightgray;
+	font-weight: 700;
+	color: black;
+	border-radius: 10px;
+}
+
+
+.search-icon {
+	position: relative;
+	float: left;
+	width: 75px;
+	height: 75px;
+	top: -62px;
+	left: -10px;
+}
+
+.checkout-btn {
+	cursor: pointer;
+	position: relative;
+	background: black;
+	width: 175px;
+	color: white;
+	border: none;
+	border-radius: 0.65rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0.75rem 1rem;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+
+#sidebar {
+	width: 250px;
+	background: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+
+}
+
+
+#sidebar .nav {
+	list-style: none;
+	padding-left: 0;
+}
+
+#sidebar .nav li {
+	padding: 20px;
+	text-align: left;
+}
+
+#sidebar .nav a {
+	text-decoration: none;
+	color: grey;
+	font-weight: 500;
+}
+
+
+.help {
+	border: 3px solid lightgray;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+}
+
+.aboutheading {
+	margin-top: 0;
+}
+
+.mainbody {
+	background: white;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-radius: 10px;
+}
+
+.upper {
+	text-align: left;
+	padding: 30px 50px;
+}
+
+.upperhead {
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.upperhead2 {
+	margin-top: 10px;
+	font-weight: 500;
+	color: grey;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.verify {
+	display: flex;
+	align-items: center;
+	margin-top: -18px;
+	margin-left: 20px;
+}
+
+.verifytext {
+	text-decoration: underline;
+	color: blue;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.logodiv {
+	display: flex;
+}
+
+.info {
+	display: flex;
+	font-size: 18px;
+}
+
+.about {
+	color: #bf202a
+}
+
+.label {
+	font-weight: 700;
+}
+
+.contactsave {
+	margin: auto;
+}
+
+.contactmobile {
+	margin: 0;
+}
+
+.contactemail {
+	margin: 0;
+	margin-left: 10px
+}
+
+.cardmargin {
+	margin-bottom: 20px;
+}
+
+.contactmargin {
+	margin-bottom: 20px;
+}
+
+.statmentpara {
+	line-height: 2;
+	margin-top: 40px;
+}
+
+.socialImg {
+	width: 50px;
+	height: 40px
+}
+
+.mainlogo {
+	width: 90px;
+	height: 90px;
+}
+
+.last {
+	background: #fff3f3;
+	opacity: 1;
+	border-radius: 10px
+}
+
+.infoedit {
+	margin-top: 18px;
+	margin-left: 10px;
+}
+
+.Main {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.cards {
+	border: 0.5px solid grey;
+	margin: 20px;
+	height: 160px;
+	flex: 0 0 26%;
+	border-radius: 10px;
+	text-align: left;
+	padding: 20px;
+	position: relative;
+}
+
+.contactCard {
+	border: 0.5px solid grey;
+	margin: 20px;
+	height: 140px;
+	flex: 0 0 26%;
+	border-radius: 10px;
+	text-align: left;
+	padding: 20px;
+}
+
+.maintab {
+	display: flex;
+}
+
+.tabhead {
+	margin-left: 45px;
+	font-weight: 500;
+	color: grey;
+}
+
+.tabhead1 {
+	margin-left: 45px;
+	font-weight: 700;
+	color: black;
+}
+
+
+div.test {
+	width: 90%;
+	margin-left: 40px;
+	border: 0.5px solid lightgray;
+	position: relative;
+}
+
+.test::after {
+	content: '';
+	border: 1px solid #e72d38;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 3%;
+}
+
+.contactcards {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 20px;
+	height: 140px;
+	padding: 10px;
+	text-align: left;
+}
+.infoPara{
+   color: #8a97a0;
+}
+.cardupper {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.contactpara {
+	color: grey;
+	font-size: 18px;
+	margin: 0;
+}
+.contactPara{
+  margin-left: 10px;
+}
+
+.contactleftmargin {
+	margin-left: 10px;
+}
+
+.addresspara {
+	line-height: 2;
+}
+
+.carduppermargin {
+	margin-bottom: 20px;
+}
+
+.cardcontentmargin {
+	margin-bottom: 20px;
+}
+
+.editImg {
+	width: 30px;
+	height: 30px
+}
+
+.cardedit {
+	position: absolute;
+	right: 5px;
+	cursor: pointer;
+}
+
+.carddelete {
+	position: absolute;
+	right: 35px;
+	cursor: pointer;
+}
+
+.slide-pane__header {
+	background: white !important;
+	border-bottom: none !important;
+}
+
+.slide-pane__title {
+	font-weight: 700 !important;
+	font-size: 24px !important;
+}
+
+.cardheading {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.savebutton {
+	position: fixed;
+	bottom: 5px;
+	width: 90%;
+	margin: auto;
+	padding: 15px;
+	background: #e72d38;
+	border: none;
+	color: white;
+	font-weight: 700;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.socialItem {
+	display: flex;
+	align-items: center;
+	margin-top: 45px;
+	justify-content: space-around;
+}
+
+.cardcontent {
+	display: flex;
+	/* margin-top: 10px; */
+  align-items: center;
+}
+
+.socialText {
+	margin: 0;
+	font-size: 14px;
+}
+
+legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+textarea,
+select {
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 90%;
+	background-color: #e8eeef;
+	color: #8a97a0;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 10px;
+}
+
+.addmore {
+	padding: 10px 39px 10px 39px;
+	color: #bf202a;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 700;
+	background: #fff3f3;
+	font-style: normal;
+	border-radius: 5px;
+	width: 100%;
+	border: none;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.contactPara .contactMail:not(:last-child):after {
+	content: '/';
+}
+
+
+.circle {
+	padding: -4px;
+	background: radial-gradient(5px -9px, circle, white 8%, red 26px);
+	background-color: #fce7e7;
+	border-radius: 28px;
+	color: red;
+	font: bold 15px/13px Helvetica, Verdana, Tahoma;
+	height: 30px;
+	width: 30px;
+	min-width: 14px;
+	padding: 10px 6px 0 6px;
+	text-align: center;
+	right: 34px;
+	bottom: 37%;
+	position: absolute;
+}
+
+.slide-pane__title-wrapper {
+	margin-left: 0 !important;
+}
+
+.slide-pane__content {
+	padding-top: 0 !important;
+}
