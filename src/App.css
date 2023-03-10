@@ -327,6 +327,9 @@ div.test {
 .infoPara{
    color: #8a97a0;
 }
+.Appcontainer{
+	display: flex;
+}
 .cardupper {
 	display: flex;
 	align-items: center;

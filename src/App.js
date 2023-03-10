@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div style={{ display: "flex" }}>
+      <div className="Appcontainer">
         <SideBar />
         <Main />
       </div>
